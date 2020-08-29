@@ -5,7 +5,7 @@ class Producto():
         self._tipo = tipo
 
     @property
-    def descripcion(self, descripcion):
+    def descripcion(self):
         return self._descripcion
 
     @descripcion.setter
@@ -13,7 +13,7 @@ class Producto():
         self._descripcion = valor
 
     @property
-    def precio(self, precio):
+    def precio(self):
         return self._precio
 
     @precio.setter
@@ -21,7 +21,7 @@ class Producto():
         self._precio = valor
 
     @property
-    def tipo(self, tipo):
+    def tipo(self):
         return self._tipo
 
     @tipo.setter
