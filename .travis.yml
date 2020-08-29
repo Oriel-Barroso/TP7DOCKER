@@ -6,6 +6,7 @@ script:
 
 install:
   - pip install -r requirements.txt
+  - pip install parameterized
 
 after_success:
   - coveralls
